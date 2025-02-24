@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off"
+      }
+    ],
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
+    ],
+    "meta-viewport": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter"
+        ]
+      }
+    ]
+  }
+}
